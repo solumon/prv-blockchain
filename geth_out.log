@@ -1,0 +1,25 @@
+flag provided but not defined: -discover
+INFO [08-06|14:03:56.791] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-06|14:03:56.801] Starting peer-to-peer node               instance=Geth/v1.8.12-stable/darwin-amd64/go1.10.3
+INFO [08-06|14:03:56.801] Allocated cache and file handles         database=/Users/solumon/Desktop/prv-blockchain/datas/geth/chaindata cache=768 handles=1024
+INFO [08-06|14:03:56.815] Initialised chain configuration          config="{ChainID: 888 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Engine: unknown}"
+INFO [08-06|14:03:56.815] Disk storage enabled for ethash caches   dir=/Users/solumon/Desktop/prv-blockchain/datas/geth/ethash count=3
+INFO [08-06|14:03:56.815] Disk storage enabled for ethash DAGs     dir=/Users/solumon/.ethash                                  count=2
+INFO [08-06|14:03:56.815] Initialising Ethereum protocol           versions="[63 62]" network=1
+INFO [08-06|14:03:56.816] Loaded most recent local header          number=0 hash=942f59…a2588a td=16384
+INFO [08-06|14:03:56.816] Loaded most recent local full block      number=0 hash=942f59…a2588a td=16384
+INFO [08-06|14:03:56.816] Loaded most recent local fast block      number=0 hash=942f59…a2588a td=16384
+INFO [08-06|14:03:56.817] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-06|14:03:56.818] Starting P2P networking 
+INFO [08-06|14:03:56.819] RLPx listener up                         self="enode://7b87307bafeca49243afee514cf0cf7ea66b5fe32ec68b6b3fe875eac9327f160b34a99d6fc7736210dd63119f7508f438b39f332018cdd913e2a24cff87c987@[::]:30303?discport=0"
+INFO [08-06|14:03:56.821] IPC endpoint opened                      url=/Users/solumon/Desktop/prv-blockchain/datas/geth.ipc
+INFO [08-06|14:03:56.948] Mapped network port                      proto=tcp extport=30303 intport=30303 interface=NAT-PMP(192.168.2.1)
+INFO [08-06|14:48:54.408] Updated mining threads                   threads=0
+INFO [08-06|14:48:54.408] Transaction pool price threshold updated price=18000000000
+ERROR[08-06|14:48:54.408] Cannot start mining without etherbase    err="etherbase must be explicitly specified"
+INFO [08-06|14:49:39.265] Updated mining threads                   threads=1
+INFO [08-06|14:49:39.266] Transaction pool price threshold updated price=18000000000
+ERROR[08-06|14:49:39.266] Cannot start mining without etherbase    err="etherbase must be explicitly specified"
+INFO [08-06|14:50:29.796] Updated mining threads                   threads=0
+INFO [08-06|14:50:29.796] Transaction pool price threshold updated price=18000000000
+ERROR[08-06|14:50:29.796] Cannot start mining without etherbase    err="etherbase must be explicitly specified"
